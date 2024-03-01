@@ -1,6 +1,6 @@
 # Tiled Diffusion
-# 1st edit by https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
-# 2nd edit by https://github.com/shiimizu/ComfyUI-TiledDiffusion
+# 1st edit by https://github.com/pkuliyi2015/multidiffusion-upscaler-for-A u t o m a t i c 1 1 1 1
+# 2nd edit by https://github.com/shiimizu/C o m f y U I-TiledDiffusion
 # 3rd edit by Forge Official
 
 

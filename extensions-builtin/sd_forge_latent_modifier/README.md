@@ -22,7 +22,7 @@ This can lead to more perceptual detail, especially at higher strengths.
 * Spectral Modulation: Converts the latent to frequencies, and clamps higher frequencies while boosting lower ones, then converts it back to an image latent. This effectively can be treated as a solution to oversaturation or burning as a result of higher CFG values, while not touching values around the median.
 
 ### Tonemapping Methods Explanation:
-* Reinhard: <p>Uses the reinhard method of tonemapping (from comfyanonymous' ComfyUI Experiments) to clamp the CFG if the difference is too strong.
+* Reinhard: <p>Uses the reinhard method of tonemapping (from comfyanonymous' C o m f y U I Experiments) to clamp the CFG if the difference is too strong.
 
   Lower `tonemap_multiplier` clamps more noise, and a lower `tonemap_percentile` will increase the calculated standard deviation from the original noise. Play with it!</p>
 * Arctan: <p>Clamps the values dynamically using a simple arctan curve. [Link to interactive Desmos visualization](https://www.desmos.com/calculator/e4nrcdpqbl).
@@ -64,7 +64,7 @@ Beware of percentile values higher than 15 and multiplier values higher than 5, 
 >##### Add extra noise to conditioning -> Sharpen conditioning -> Convert to Noise Prediction -> Tonemap Noise Prediction -> Spectral Modification -> Modify contrast of noise prediction -> Rescale CFG -> Divisive Normalization -> Combat CFG Drift
 
 #### Why use this over `x` node?
-Since the `set_model_sampler_cfg_function` hijack in ComfyUI can only utilize a single function, we bundle many latent modification methods into one large function for processing. This is simpler than taking an existing hijack and modifying it, which may be possible, but my (Clybius') lack of Python/PyTorch knowledge leads to this being the optimal method for simplicity. If you know how to do this, feel free to reach out through any means!
+Since the `set_model_sampler_cfg_function` hijack in C o m f y U I can only utilize a single function, we bundle many latent modification methods into one large function for processing. This is simpler than taking an existing hijack and modifying it, which may be possible, but my (Clybius') lack of Python/PyTorch knowledge leads to this being the optimal method for simplicity. If you know how to do this, feel free to reach out through any means!
 
 #### Can you implement `x` function?
 Depends. Is there existing code for such a function, with an open license for possible use in this repository? I could likely attempt adding it! Feel free to start an issue or to reach out for ideas you'd want implemented.

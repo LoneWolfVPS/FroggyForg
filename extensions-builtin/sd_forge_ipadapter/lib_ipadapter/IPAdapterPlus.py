@@ -1,4 +1,4 @@
-# https://github.com/cubiq/ComfyUI_IPAdapter_plus/blob/main/IPAdapterPlus.py
+# https://github.com/cubiq/C o m f y U I_IPAdapter_plus/blob/main/IPAdapterPlus.py
 
 import torch
 import contextlib

@@ -22,7 +22,7 @@ Thanks to Unet Patcher, many new things are possible now and supported in Forge,
 
 Forge also adds a few samplers, including but not limited to DDPM, DDPM Karras, DPM++ 2M Turbo, DPM++ 2M SDE Turbo, LCM Karras, Euler A Turbo, etc. (LCM is already in original webui since 1.7.0).
 
-Finally, Forge promise that we will only do our jobs. Forge will never add unnecessary opinioned changes to the user interface. You are still using 100% Automatic1111 WebUI.
+Finally, Forge promise that we will only do our jobs. Forge will never add unnecessary opinioned changes to the user interface. You are still using 100% A u t o m a t i c 1 1 1 1 WebUI.
 
 # Installing Forge
 
@@ -678,7 +678,7 @@ Marigold Depth
 ControlNet and TiledVAE are integrated, and you should uninstall these two extensions:
 
     sd-webui-controlnet
-    multidiffusion-upscaler-for-automatic1111
+    multidiffusion-upscaler-for-A u t o m a t i c 1 1 1 1
 
 Note that **AnimateDiff** is under construction by [continue-revolution](https://github.com/continue-revolution) at [sd-webui-animatediff forge/master branch](https://github.com/continue-revolution/sd-webui-animatediff/tree/forge/master) and [sd-forge-animatediff](https://github.com/continue-revolution/sd-forge-animatediff) (they are in sync). (continue-revolution original words: prompt travel, inf t2v, controlnet v2v have been proven to work well; motion lora, i2i batch still under construction and may be finished in a week")
 
