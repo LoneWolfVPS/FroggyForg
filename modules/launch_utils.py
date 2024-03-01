@@ -60,7 +60,7 @@ and delete current Python and "venv" folder in WebUI's directory.
 
 You can download 3.10 Python from here: https://www.python.org/downloads/release/python-3106/
 
-{"Alternatively, use a binary release of WebUI: https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases" if is_windows else ""}
+{"Alternatively, use a binary release of WebUI: https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/releases" if is_windows else ""}
 
 Use --skip-python-version-check to suppress this warning.
 """)
@@ -219,7 +219,7 @@ def git_pull_recursive(dir):
 def version_check(commit):
     try:
         import requests
-        commits = requests.get('https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/branches/master').json()
+        commits = requests.get('https://api.github.com/repos/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/branches/master').json()
         if commit != "<none>" and commits['commit']['sha'] != commit:
             print("--------------------------------------------------------")
             print("| You are not up to date with the most recent release. |")
@@ -389,7 +389,7 @@ def prepare_environment():
     clip_package = os.environ.get('CLIP_PACKAGE', "https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip")
     openclip_package = os.environ.get('OPENCLIP_PACKAGE', "https://github.com/mlfoundations/open_clip/archive/bb6e834e9c70d9c27d0dc3ecedeebeaeb1ffad6b.zip")
 
-    assets_repo = os.environ.get('ASSETS_REPO', "https://github.com/AUTOMATIC1111/stable-diffusion-webui-assets.git")
+    assets_repo = os.environ.get('ASSETS_REPO', "https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i-assets.git")
     stable_diffusion_repo = os.environ.get('STABLE_DIFFUSION_REPO', "https://github.com/Stability-AI/stablediffusion.git")
     stable_diffusion_xl_repo = os.environ.get('STABLE_DIFFUSION_XL_REPO', "https://github.com/Stability-AI/generative-models.git")
     k_diffusion_repo = os.environ.get('K_DIFFUSION_REPO', 'https://github.com/crowsonkb/k-diffusion.git')

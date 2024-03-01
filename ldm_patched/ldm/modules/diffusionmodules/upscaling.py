@@ -1,7 +1,7 @@
 # 1st edit by https://github.com/CompVis/latent-diffusion
 # 2nd edit by https://github.com/Stability-AI/stablediffusion
 # 3rd edit by https://github.com/Stability-AI/generative-models
-# 4th edit by https://github.com/comfyanonymous/ComfyUI
+# 4th edit by https://github.com/c o m f y a n o n y m o u s / C o m f y U I
 
 # This file is only for reference, and not used in the backend or runtime.
 

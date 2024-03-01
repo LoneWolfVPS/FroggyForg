@@ -1,4 +1,4 @@
-# 1st edit by https://github.com/comfyanonymous/ComfyUI
+# 1st edit by https://github.com/c o m f y a n o n y m o u s / C o m f y U I
 # 2nd edit by Forge Official
 
 
@@ -9,7 +9,7 @@ import contextlib
 from modules_forge import stream
 
 
-# https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/14855/files
+# https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/pull/14855/files
 stash = {}
 
 

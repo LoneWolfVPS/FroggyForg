@@ -2,7 +2,7 @@ import os
 import importlib.util
 
 
-# https://github.com/comfyanonymous/ComfyUI/blob/master/cuda_malloc.py
+# https://github.com/c o m f y a n o n y m o u s / C o m f y U I/blob/master/cuda_malloc.py
 def get_gpu_names():
     if os.name == 'nt':
         import ctypes

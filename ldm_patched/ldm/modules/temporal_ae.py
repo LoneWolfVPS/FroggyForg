@@ -1,5 +1,5 @@
 # 1st edit by https://github.com/Stability-AI/generative-models
-# 2nd edit by https://github.com/comfyanonymous/ComfyUI
+# 2nd edit by https://github.com/c o m f y a n o n y m o u s / C o m f y U I
 # 3rd edit by Forge
 
 # This file is not used in image diffusion backend. (but used in SVD.)

@@ -1,5 +1,5 @@
 # 1st edit: https://github.com/dbolya/tomesd
-# 2nd edit: https://github.com/comfyanonymous/ComfyUI
+# 2nd edit: https://github.com/c o m f y a n o n y m o u s / C o m f y U I
 # 3rd edit: Forge official
 
 import torch

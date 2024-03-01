@@ -1,4 +1,4 @@
-# https://github.com/comfyanonymous/ComfyUI/blob/master/nodes.py 
+# https://github.com/c o m f y a n o n y m o u s / C o m f y U I/blob/master/nodes.py 
 
 #code originally taken from: https://github.com/ChenyangSi/FreeU (under MIT License)
 

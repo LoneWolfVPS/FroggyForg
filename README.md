@@ -1,6 +1,6 @@
 # Stable Diffusion WebUI Forge
 
-Stable Diffusion WebUI Forge is a platform on top of [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (based on [Gradio](https://www.gradio.app/)) to make development easier, optimize resource management, and speed up inference.
+Stable Diffusion WebUI Forge is a platform on top of [Stable Diffusion WebUI](https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i) (based on [Gradio](https://www.gradio.app/)) to make development easier, optimize resource management, and speed up inference.
 
 The name "Forge" is inspired from "Minecraft Forge". This project is aimed at becoming SD WebUI's Forge.
 
@@ -697,8 +697,8 @@ Usually if an old extension rework using Forge's unet patcher, 80% codes can be 
 
 # Contribution
 
-Forge uses a bot to get commits and codes from https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/dev every afternoon (if merge is automatically successful by a git bot, or by my compiler, or by my ChatGPT bot) or mid-night (if my compiler and my ChatGPT bot both failed to merge and I review it manually).
+Forge uses a bot to get commits and codes from https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/tree/dev every afternoon (if merge is automatically successful by a git bot, or by my compiler, or by my ChatGPT bot) or mid-night (if my compiler and my ChatGPT bot both failed to merge and I review it manually).
 
-All PRs that can be implemented in https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/dev should submit PRs there.
+All PRs that can be implemented in https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/tree/dev should submit PRs there.
 
 Feel free to submit PRs related to the functionality of Forge here.

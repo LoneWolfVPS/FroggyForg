@@ -1,4 +1,4 @@
-# https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/14855
+# https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i/pull/14855
 
 import torch
 
