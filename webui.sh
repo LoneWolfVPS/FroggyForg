@@ -35,10 +35,10 @@ then
     install_dir="$SCRIPT_DIR"
 fi
 
-# Name of the subdirectory (defaults to stable-diffusion-webui)
+# Name of the subdirectory (defaults to s t a b l e - d i f f u s i o n - w e b u i)
 if [[ -z "${clone_dir}" ]]
 then
-    clone_dir="stable-diffusion-webui"
+    clone_dir="s t a b l e - d i f f u s i o n - w e b u i"
 fi
 
 # python3 executable
@@ -190,7 +190,7 @@ then
     cd "${clone_dir}"/ || { printf "\e[1m\e[31mERROR: Can't cd to %s/%s/, aborting...\e[0m" "${install_dir}" "${clone_dir}"; exit 1; }
 else
     printf "\n%s\n" "${delimiter}"
-    printf "Clone stable-diffusion-webui"
+    printf "Clone s t a b l e - d i f f u s i o n - w e b u i"
     printf "\n%s\n" "${delimiter}"
     "${GIT}" clone https://github.com/A U T O M A T I C 1 1 1 1 / s t a b l e - d i f f u s i o n - w e b u i.git "${clone_dir}"
     cd "${clone_dir}"/ || { printf "\e[1m\e[31mERROR: Can't cd to %s/%s/, aborting...\e[0m" "${install_dir}" "${clone_dir}"; exit 1; }

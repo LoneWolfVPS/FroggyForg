@@ -1203,7 +1203,7 @@ def versions_html():
         xformers_version = "N/A"
 
     return f"""
-version: <a href="https://github.com/lllyasviel/stable-diffusion-webui-forge/commit/{commit}">{tag}</a>
+version: <a href="https://github.com/lllyasviel/s t a b l e - d i f f u s i o n - w e b u i-forge/commit/{commit}">{tag}</a>
 &#x2000;•&#x2000;
 python: <span title="{sys.version}">{python_version}</span>
 &#x2000;•&#x2000;
@@ -1245,4 +1245,4 @@ def setup_ui_api(app):
     app.add_api_route("/internal/sysinfo-download", lambda: download_sysinfo(attachment=True), methods=["GET"])
 
     import fastapi.staticfiles
-    app.mount("/webui-assets", fastapi.staticfiles.StaticFiles(directory=launch_utils.repo_dir('stable-diffusion-webui-assets')), name="webui-assets")
+    app.mount("/webui-assets", fastapi.staticfiles.StaticFiles(directory=launch_utils.repo_dir('s t a b l e - d i f f u s i o n - w e b u i-assets')), name="webui-assets")

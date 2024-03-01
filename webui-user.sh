@@ -7,7 +7,7 @@
 #install_dir="/home/$(whoami)"
 
 # Name of the subdirectory
-#clone_dir="stable-diffusion-webui"
+#clone_dir="s t a b l e - d i f f u s i o n - w e b u i"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 #export COMMANDLINE_ARGS=""
@@ -27,7 +27,7 @@
 # install command for torch
 #export TORCH_COMMAND="pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113"
 
-# Requirements file to use for stable-diffusion-webui
+# Requirements file to use for s t a b l e - d i f f u s i o n - w e b u i
 #export REQS_FILE="requirements_versions.txt"
 
 # Fixed git repos
